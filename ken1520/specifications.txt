@@ -1,0 +1,8 @@
+
+
+String fizzBuzz(int n)
+    requires: integer n > 0.
+    effects: if n mod 3 = 0 then return "fizz",
+        if n mod 5 = 0 then return "buzz",
+        if (n mod 3 = 0) and (n mod 3 = 0) then return "fizz buzz",
+        otherwise return n as String.
